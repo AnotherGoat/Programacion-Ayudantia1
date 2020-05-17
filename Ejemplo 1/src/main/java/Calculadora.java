@@ -30,6 +30,10 @@ public class Calculadora {
         return Math.pow(num1,num2);
     }
 
+    public double raizCuadrada(){
+        return math.Sqrt(num1);
+    }
+
     // Getters y Setters
     public int getNum1() {
         return num1;
