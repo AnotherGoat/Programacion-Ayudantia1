@@ -9,6 +9,7 @@ public class Calculadora {
         this.num2 = num2;
     }
 
+    // Métodos
     public int sumar(){
         return num1+num2;
     }
@@ -22,7 +23,11 @@ public class Calculadora {
     }
 
     public double dividir(){
-        return (double)num1/num2;
+        return ((double)num1/num2);
+    }
+
+    public double potencia(){
+        return Math.pow(num1,num2);
     }
 
     // Getters y Setters
